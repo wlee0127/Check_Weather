@@ -1,0 +1,20 @@
+{
+  "name": "check_weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlee0127/Check_Weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlee0127/Check_Weather/issues"
+  },
+  "homepage": "https://github.com/wlee0127/Check_Weather#readme"
+}
