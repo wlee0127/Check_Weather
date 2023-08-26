@@ -12,7 +12,7 @@ document.addEventListener('keydown',function(event){
 async function weatherData(){
 
     
-    const api_forecast = "https://api.openweathermap.org/data/2.5/forecast?q=";
+    
     const api_weather = "https://api.openweathermap.org/data/2.5/weather?q=";
     const api_time = "http://api.timezonedb.com/v2.1/get-time-zone?key=";     
     const api_key = "640535654e67f478602e4d33c98a6724";
@@ -68,3 +68,8 @@ async function weatherData(){
 
     }
 
+async function futureWeatherData() {
+
+    const api_forecast = "https://api.openweathermap.org/data/2.5/forecast?q=";
+    const api_key = "640535654e67f478602e4d33c98a6724";
+}
