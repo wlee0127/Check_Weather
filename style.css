@@ -7,27 +7,25 @@ body {
 border: none;
 width:10px;
 height:10px;
+border-radius:10px;
 }
 
-.container01 {
+.container00 {
   align-items: center;
   justify-content: center;
   text-align:center;
   padding-top: 25px;
+  border-radius:10px;
 }
-.container02 {
-  align-items: center;
-  justify-content: center;
-  text-align:center;
- 
-}
-.container02.background {
+
+.container01.background {
+  font-family: 'Courier New', Courier, monospace;
   align-items: center;
   text-align:center;
-  width: 150px;
-  height: 210px;
+  width: 200px;
+  height: 220px;
   background-color: #abbff1;
-  border-radius: 10px;
+  border-radius: 20px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;

@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <!--<link
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="script.js"></script>
 
     <title>Weather</title>
     </head>
 
     <body>
-    <div class="container01">
+    <div class="container00">
         <input name="location" type="text" id="inputlocation" />
         <button type="button" onclick="weatherData()">
           <img
@@ -26,17 +27,75 @@
     </div>
 
 
-    <div class="container02">
+    <div class="container01">
         <h4>
          <span id="citylocation"></span><span id="country"></span>
          </h4>
         <h4>
-        <span id="currenttemp"></span>
+        <span id="currenttemp"></span><br>
+        <span id="date"></span><br>
+        <span id="time"></span>
         </h4> 
         
-          <img id="current01" src=""</img><br>
+          <img id="current01" src=""></img><br>
           <span id="current01description"></span>
     </div>
+
+    <div class="row justify-content-center">
+    <div class="container02">
+          <div class="col-sm-2" id="column00">
+              <div class="bg-primary text-white p-2">
+                 <h4>
+                 <span id="date01"></span><br>
+                 <span id="temp01"></span>
+                 </h4> 
+                 
+                   <img id="icon01" src=""></img><br>
+                   <span id="icon01description"></span>
+              </div>
+          </div>
+          <div class="col-sm-2" id="column01">
+                <div class="bg-primary text-white p-2">
+                  <h4>
+                  <span id="date02"></span><br>
+                  <span id="temp02"></span>
+                  </h4> 
+                  
+                    <img id="icon02" src=""></img><br>
+                    <span id="icon02description"></span>
+               </div>
+              
+          </div>
+          <div class="col-sm-2" id="column02">
+  
+                <div class="bg-primary text-white p-2">
+                  <h4>
+                  <span id="date03"></span><br>
+                  <span id="temp03"></span>
+                  </h4> 
+                  
+                    <img id="icon03" src=""></img><br>
+                    <span id="icon03description"></span>
+               </div>
+             
+          </div>
+          <div class="col-sm-2" id="column03">
+             
+                <div class="bg-primary text-white p-2">
+                  <h4>
+                  <span id="date04"></span><br>
+                  <span id="temp04"></span>
+                  </h4> 
+                  
+                    <img id="icon04" src=""></img><br>
+                    <span id="icon04description"></span>
+               </div>
+              
+          </div>
+    
+      </div>
+    </div>
+    
   
 
   </body>
